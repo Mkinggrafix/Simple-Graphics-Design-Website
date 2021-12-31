@@ -1,0 +1,322 @@
+body{
+    background-color: rgb(243, 243, 243);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+        /* header */
+#header{
+    background-color: #fff;
+    display: flex;
+}
+
+.logo{
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    margin: 7px;
+}
+
+.logo-1{
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+#navbar ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 10px;
+    margin-left: 400px;
+}
+
+#navbar li a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: #000;
+}
+
+#navbar li a:hover{
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+}
+
+#navbar .sign-up a{
+    border: 1px solid #000;
+    padding: 3px;
+}
+
+#navbar .sign-up a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+        /* section */
+#section{
+    display: flex;
+    flex: 1fr 2fr;
+}
+
+.special{
+    color: rgb(3, 233, 233);
+}
+
+.easy{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.easy-2{
+    font-size: 10px;
+}
+
+.hard{
+    font-size: 10px;
+    margin-top: 100px;
+}
+
+.hard-2{
+    font-size: 8px;
+    border: 1px solid rgb(0, 255, 255);
+    padding: 5px;
+    background-color: rgb(0, 255, 255);
+}
+
+.hard-2 a{
+    color: #000;
+    text-decoration: none;
+}
+
+.hard-3{
+    font-size: 8px;
+    border: 1px solid rgb(6, 240, 240);
+    padding: 5px;
+    background-color: rgb(6, 240, 240);
+    text-transform: uppercase;
+}
+
+.hard-3 a{
+    color: #000;
+    text-decoration: none;
+}
+
+.hard-4{
+    font-size: 10px;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    text-decoration: none;
+}
+
+.socio{
+    display: flex;
+    border: 1px solid #000;
+    padding: 0 10px 0 0;
+    margin-right: 5px;
+}
+
+.socio img{
+    width: 12px;
+    height: 12px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.socio p{
+    font-size: 10px;
+}
+
+.socio-1{
+    display: flex;
+    border: 1px solid #000;
+    padding: 0 10px 0 0;
+}
+
+.socio-1 img{
+    width: 12px;
+    height: 12px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.socio-1 p{
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+    /* side bar */
+.circle{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(6, 240, 240);
+    border-radius: 100%;
+    position:relative;
+    top: 10px;
+    left: 25px;
+}
+
+
+.showcase{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(7, 206, 206);
+    position: relative;
+    top: 80px;
+    left: 200px; 
+    border: 2px dotted #000;  
+}
+
+.about{
+    font-size: 12px;
+    color: #fff;
+    position: relative;
+    top: -120px;
+    left: 265px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.us{
+    width: 165px;
+    font-size: 10px;
+    color: #fff;
+    position: relative;
+    top: -110px;
+    left: 225px;
+}
+
+.my-form{
+    background-color: rgb(9, 209, 209);
+    position:relative;
+    top: 10px;
+    left: 25px;
+    padding: 10px;
+}
+
+.my-form label{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.my-form input{
+    display: block;
+    width: 160px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    background-color: #fff ;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.my-form textarea{
+    display: block;
+    width: 160px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    background-color: #fff ;
+    font-size: 10px;
+    padding: 3px;
+}
+
+.btn{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.feedback{
+    display: none;
+}
+
+.feedMe:hover .feedback{
+    display: block;
+    position: absolute;
+    margin-left: -40px;
+}
+
+@media (max-width: 728px) {
+    #header{
+        display: block;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .logo-1{
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #000;
+        padding: 5px;
+    }
+
+    #navbar ul{
+        display: flex;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 8px;
+    }
+    #navbar li a{
+        margin-right: 2px;
+    }
+    #navbar .sign-up a{
+        background-color: #000;
+        color: #fff;
+        padding: 2px;
+        border-radius: 2px;
+    }
+    #section{
+        display: block;
+    }
+    .easy{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .easy-2{
+        width: 200px;
+    }
+
+    .side-bar{
+        display: none;
+    }
+
+    .feedMe:hover .feedback{
+        display: block;
+        position: absolute;
+        margin-left: -100px;
+    }
+
+    .my-form label{
+        font-size: 10px;
+        text-align: left;
+    }
+    
+    .my-form input{
+        width: 140px;
+        margin-bottom: 2px;
+    }
+    
+    .my-form textarea{
+        width: 140px;
+    }
+
+    .btn{
+        width: 147px;
+        font-weight: bold;
+        padding: 5px;
+    }
+}
